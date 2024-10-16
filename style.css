@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Mukta", sans-serif;
+
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    position:relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+.logo{
+    width:110px;
+}
+.list-items{
+    list-style:none;
+    display: inline;
+    margin:0px 20px;
+}
+.links{
+    text-decoration: none; 
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+.links:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.home-content{
+    margin-top: 300px;
+    margin-left: 50px;
+}
+#username{
+    font-size: 100px;
+    margin-bottom: 20px;
+    font-family: "Mukta", serif;
+}
+#lname{
+    font-family: "Mukta", serif;
+    color: blue;
+}
+#userdetails{
+    font-size: 30px;
+    line-height: 1.5;
+}
+#download{
+    text-decoration: none;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+.home-img{
+    width:45%;
+    height:45%;
+    position: absolute;
+    bottom: 0px;
+    right:0px;
+}
+.group1{
+    position: absolute;
+    height: 100%;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: bottom 2s,left 1s;
+}
+.home-image:hover #shape{
+    bottom: 30px;
+
+}
+.home-image:hover #girl{
+    left: 30px;
+}
+#about{
+    margin: 25% 0px 0px 8%;
+
+}
+.sectionHead{
+    text-align: center
+}
+.mainhead{
+    font-size: 30px;
+}
+.subhead{
+    font-size: 30px;
+    color: blue;
+}
